@@ -50,5 +50,4 @@ const a6 = fruits
   .filter((x) => ["i", "e"].some((v) => x.includes(v)))
   .filter((x) => x.length >= 4)
   .map((x) => x.toUpperCase());
-
 console.log(a6);
